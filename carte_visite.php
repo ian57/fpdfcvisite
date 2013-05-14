@@ -239,7 +239,7 @@ function definition_des_champs() {
 
 	$f->frm_ObjetChampTexte("VILLE", array( "label" => "Ville",
 	                                         					"attrib" => "R",
-											 "default" => "METZ Technopole",
+											 "default" => "Ville",
 											 "help" => "Saisir la ville")
 											 );
 
@@ -269,7 +269,7 @@ function definition_des_champs() {
 									       "label"  => "Fax",
 									       "width"  => "120px",
 									       "help"   => "Fax",
-									       "default" => "+33 (0)3 87 54 73 01",
+									       "default" => "+33 (0)1 02 03 04 05",
 										   "mask"   => "+## (#)# ## ## ## ##")
 										);
 
@@ -286,7 +286,7 @@ function definition_des_champs() {
 									       "label"  => "Site Web",
 									       "width"  => "275",
 									       "help"   => "Site web ",
-									       "default" => "www.lcoms.univ-metz.fr")
+									       "default" => "www.myhome.com")
 										);
 				
 	$f->frm_OngletNouveau('Génération carte de visite');
