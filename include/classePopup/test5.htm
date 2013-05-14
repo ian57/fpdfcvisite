@@ -1,0 +1,93 @@
+<HTML><HEAD>
+	<TITLE>Ferant DHTML Windows</TITLE>
+	</HEAD>
+	<BODY>
+<script language="javascript" src="inc/FerantLib.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">		
+<!--
+
+	var params = 
+		{ 
+			BorderColor : 'Transparent', 
+			BorderWidth : 0, 
+			CloseBoxHeight : 15, 
+			CloseBoxSrc : 'img/closebox15.gif', 
+			CloseBoxWidth : 15, 
+			ContentColor : '#efefef',  
+			ContentHTML : '<br><UL style=\'FONT-SIZE: 11px; FONT-FAMILY: verdana\'> <LI>It allows you to visually integrate your DHTML windows with any project.</LI> <LI>Provides rich web content for borders, status bar, and title bar.</LI> <LI>Supports non-rectangular DHTML windows. </LI> <LI>Can add 3-D effect to DHTML windows.</LI> <LI>Makes it easy for developers to create their own DHTML windows style.</LI> </UL> ', 
+			ContentLeftBorderColor : '#3973ad', 
+			ContentLeftBorderWidth : 1, 
+			ContentRightBorderWidth : 1, 
+			ContentRightBorderColor : '#3973ad', 
+			Height : 260, 
+			InnerBorderWidth : 0, 
+			OuterBorderColor : '#336699',  
+			OuterBorderWidth : 0, 
+			Resizable : 'None', 
+			StatusBarHTML : '<img alt=\"\"  src=\'img/box_bottom.gif\' align=center>', 
+			StatusBarTextMargin : 6, 
+			StatusColor : 'Transparent', 
+			TitleBarHeight : 37, 
+			TitleBarHTML : '<img alt=\"\"  src=\"img/box_top.gif\" border=\"0\" width=\"266\" height=\"37\">',
+			TitleColor : 'Transparent', 
+			Width : 266, 
+			ContentFontSize : 9,
+			Top : 10,
+			Left : 10,			
+			Id  : 't1'
+		} 
+	var t1  = new FerantDHTMLWindow(params);
+t1.OpenWindow()	
+	var params = 
+		{ 
+			BorderColor : 'Transparent', 
+			BorderWidth : 0, 
+			CloseBoxHeight : 15, 
+			CloseBoxSrc : 'img/box_close.gif', 
+			CloseBoxWidth : 15, 
+			ContentColor : '#efefef',  
+			ContentHTML : '<br><UL style=\'FONT-SIZE: 11px; FONT-FAMILY: verdana\'> <LI>It allows you to visually integrate your DHTML windows with any project.</LI> <LI>Provides rich web content for borders, status bar, and title bar.</LI> <LI>Supports non-rectangular DHTML windows. </LI> <LI>Can add 3-D effect to DHTML windows.</LI> <LI>Makes it easy for developers to create their own DHTML windows style.</LI> </UL> ', 
+			ContentLeftBorderColor : '#3973ad', 
+			ContentLeftBorderWidth : 1, 
+			ContentRightBorderWidth : 1, 
+			ContentRightBorderColor : '#3973ad', 
+			Height : 260, 
+			InnerBorderWidth : 0, 
+			OuterBorderColor : '#336699',  
+			OuterBorderWidth : 0, 
+			Resizable : 'None', 
+			StatusBarHTML : '<img alt=\"\"  src=\'img/box_bottom.gif\' align=center>', 
+			StatusBarTextMargin : 6, 
+			StatusColor : 'Transparent', 
+			TitleBarHeight : 37, 
+			TitleBarHTML : '<img alt=\"\"  src=\"img/box_top.gif\" border=\"0\" width=\"266\" height=\"37\">',
+			TitleColor : 'Transparent', 
+			Width : 266, 
+			ContentFontSize : 9,
+			Top : 50,
+			Left : 50,
+			Id  : 't2'
+		} 		
+
+var t2  = new FerantDHTMLWindow(params);
+t2.OpenWindow()
+		
+// -->  
+</script>
+
+
+        <span class="fr"><a href="JavaScript:t1.OpenWindow();">Open it</a> &nbsp;&nbsp;&nbsp; <a href="JavaScript:t1.CloseWindow();"> Close it</a> </span>    <form id="form1" name="form1">
+          <p>
+            <input name="textfield" type="text" value="sdfsd">
+          </p>
+          <p>
+            <select name="select">
+              <option value="1">A</option>
+              <option value="2">B</option>
+              <option value="3">C</option>
+              <option value="4">D</option>
+            </select>    
+            </p>
+        </form>
+	</BODY>
+</HTML>

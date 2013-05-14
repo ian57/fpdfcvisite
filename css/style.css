@@ -1,0 +1,94 @@
+.standard { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+} 
+
+.standardj { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	text-align: justify;
+} 
+
+a {
+    color: #000;
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+a:hover {
+        color: #A00;
+}
+
+.titre { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 26px; 
+	font-weight: bold;
+} 
+.titre1 { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 16px; 
+	font-weight: bold;
+} 
+
+.titre2 { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 14px; 
+	font-weight: bold;
+	font-style: oblique;
+} 
+
+.cell_user { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 16px; 
+	font-style: oblique;
+} 
+
+
+.line1{
+   font-size : 12px; 
+   font-family : Verdana, arial, helvetica, sans-serif; 
+   font-weight: bold;
+   background-color : #CCCCCC; 
+}
+
+.titre{
+   font-size : 14px; 
+   font-family : Verdana, arial, helvetica, sans-serif; 
+   font-weight: bold;
+/*   background-color : #CCCCCC; */
+}
+
+
+.line2{
+   font-size : 12px; 
+   font-family : Verdana, arial, helvetica, sans-serif; 
+   background-color : #DDDDDD; 
+}
+
+.line3{
+   font-size : 12px; 
+   font-family : Verdana, arial, helvetica, sans-serif; 
+   background-color : white; 
+}
+
+.error{
+   font-size : 12px; 
+   font-family : Verdana, arial, helvetica, sans-serif; 
+   background-color : red; 
+}
+
+.left{
+   text-align: center;
+   width: 20%;
+   font-size : 12px; 
+}
+.mid{
+   text-align: center;
+   font-weight: bold;
+   font-size : 12px; 
+}
+.right{
+   text-align: center;
+   font-size : 10px; 
+}

@@ -1,0 +1,54 @@
+<HTML><HEAD>
+	<TITLE>Ferant DHTML Windows</TITLE>
+	</HEAD>
+	<BODY>
+<script language="javascript" src="inc/FerantLib.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">		
+<!--
+
+var params = 
+{	
+	BorderWidth : 2, 
+	ContentColor : '#F9EBE6', 
+	ContentHTML : '<br>A dreamer is one who can only find his way by moonlight, and his punishment is that he sees the dawn before the rest of the world. ', 
+	ContentPadding : 13, 
+	Height : 121, 
+	InnerBorderColor : '#cccccc', 
+	InnerBorderWidth : 0, 
+	OuterBorderColor : '#9C0000',
+	ResizeBoxSrc : 'img/resize7blue.gif', 
+	ResizeBoxWidth: 7,
+	ResizeBoxHeight : 7,  
+	StatusBarHeight : 17, 
+	StatusBarText : 'eee', 
+	StatusColor : '#F9EBE6', 
+	TitleBarText : 'Oscar Wilde', 
+	TitleColor : '#9C0000', 
+	TitleFontSize : 12, 
+	Shadow: true,
+	ContentFontColor : '#9C0000',
+			CloseBoxSrc : 'img/effacer3.gif', 
+	Id  : 't1'
+}
+var t1  = new FerantDHTMLWindow(params);
+t1.OpenWindow()
+		
+// -->  
+</script>
+
+
+        <span class="fr"><a href="JavaScript:t1.OpenWindow();">Open it</a> &nbsp;&nbsp;&nbsp; <a href="JavaScript:t1.CloseWindow();"> Close it</a> </span>    <form id="form1" name="form1">
+          <p>
+            <input name="textfield" type="text" value="sdfsd">
+          </p>
+          <p>
+            <select name="select">
+              <option value="1">A</option>
+              <option value="2">B</option>
+              <option value="3">C</option>
+              <option value="4">D</option>
+            </select>    
+            </p>
+        </form>
+	</BODY>
+</HTML>

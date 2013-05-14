@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- ====== This page contains code that is Copyright Ferant.com 2003 ===== --><HTML><HEAD>
+		<TITLE>Ferant DHTML Windows</TITLE>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+		<script language="javascript" src="inc/FerantLib.js" type="text/javascript"></script>
+	</HEAD>
+	<BODY>
+<script language="javascript" type="text/javascript">		
+<!--
+
+
+var params = 
+{	
+	Height : 300, 
+	Width : 330, 
+	BorderColor : '#E9BDAD', 
+	BorderWidth : 4, 
+	InnerBorderColor : 'White', 
+	OuterBorderColor : '#999999', 
+	CloseBoxHeight : 11, 
+	CloseBoxSrc : 'img/close11transparent.gif', 
+	CloseBoxWidth : 11, 
+	ContentColor : '#F9EBE6', 
+	ContentNoWrap : 'nowrap', 
+	ContentFontSize : 11, 
+	TitleBarHeight : 23, 
+	TitleBarText : 'ROMEO AND JULIET', 
+	TitleColor : '#E9BDAD', 
+	TitleFontColor : '#9C0000', 
+	StatusBarText : 'William Shakespeare', 
+	//StatusBarHeight : 0, 
+	StatusColor : '#E9BDAD', 
+	StatusFontColor : '#9C0000',
+	Id  : 't1'
+}
+var t1  = new FerantDHTMLWindow(params);
+var texte = 'Two <b>households</b>, both alike in dignity,<br> In fair Verona, where we lay our scene,<br> From ancient grudge break to new mutiny,<br> Where civil blood makes civil hands unclean.<br> From forth the fatal loins of these two foes<br> A pair of star-cross\'d lovers take their life;<br> Whole misadventured piteous overthrows<br> Do with their death bury their parents\' strife.<br> The fearful passage of their death-mark\'d love,<br> And the continuance of their parents\' rage,<br> Which, but their children\'s end, nought could remove,<br> Is now the two hours\' traffic of our stage;<br> The which if you with patient ears attend,<br> What here shall miss, our toil shall strive to mend.<br> ';
+t1.UpdateContentHTML(texte);
+t1.OpenWindow()
+		
+// -->  
+</script>
+
+
+        <span class="fr"><a href="JavaScript:t1.OpenWindow();">Open it</a> &nbsp;&nbsp;&nbsp; <a href="JavaScript:t1.CloseWindow();"> Close it</a> </span>    <form id="form1" name="form1">
+        </form>
+	</BODY>
+</HTML>

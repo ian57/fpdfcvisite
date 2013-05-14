@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- ====== This page contains code that is Copyright Ferant.com 2003 ===== --><HTML><HEAD>
+		<TITLE>Ferant DHTML Windows</TITLE>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+		<script language="javascript" src="../inc/FerantLib.js" type="text/javascript"></script>
+	</HEAD>
+	<BODY>
+<script language="javascript" type="text/javascript">		
+<!--
+
+
+
+var params = 
+{	
+	BorderWidth : 5, 
+	ContentColor : '#e7e7e7', 
+	ContentHTML : '<img src=\'img/prs.jpg\' width=42 height=57 align=right vspace=0 border=0> <b>Paris</b> city and capital of France, located in the north-central part of the country. The city was founded more than 2,000 years ago on an island in the Seine River, some 233 miles (375 kilometres) upstream from the river\'s mouth on the English Channel. The modern city has spread from the island (the Île de la Cité) and far beyond both banks of the Seine. <br><br>For centuries Paris has been one of the world\'s most important and attractive cities. It is appreciated for the opportunities it offers for business and commerce, for study, for culture, and for entertainment: its gastronomy, haute couture, painting, literature, and intellectual community especially enjoy an enviable reputation.', 
+	Height : 320,  
+	InnerBorderWidth : 0, 
+	OuterBorderColor : '#336699', 
+	OuterBorderWidth : 2, 
+	StatusBarHeight : 18, 
+	StatusBarText : '', 
+	StatusBarTextMargin : 6, 
+	StatusColor : '#e7e7e7', 
+	TitleBarHeight : 22, 
+	TitleBarText : 'Paris', 
+	TitleBarTextMargin : 6, 
+	TitleBarColor : '#336699', 
+	Width : 250,
+	Id  : 't1'
+} 
+var t1  = new FerantDHTMLWindow(params);
+t1.OpenWindow()
+
+
+
+function test() {
+	t1.UpdateContentHTML("HELLO");
+}		
+// -->  
+</script>
+
+
+        <span class="fr"><a href="javascript:t1.OpenWindow();test();">Open it</a> &nbsp;&nbsp;&nbsp; <a href="JavaScript:t1.CloseWindow();"> Close it</a> </span>    <form id="form1" name="form1">
+        </form>
+	</BODY>
+</HTML>
