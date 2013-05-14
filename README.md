@@ -12,3 +12,8 @@ edit the file fpdfcvisite/include/_classePath.php to fit your install path
 
 launch a browser and access to the carte_visite.php and test.
 
+Screenshots
+===========
+
+See some screenshots at https://plus.google.com/photos/115110089997656615128/albums/5877758762461001073
+
