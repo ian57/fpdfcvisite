@@ -128,10 +128,10 @@ function creation_carte()
 	for($i=1;$i<=$nb_carte;$i++)
 	if ($profession2 != "")
 	{
-	$pdf->Add_PDF_CVisite("<nom>".$prenom." ".$nom."</nom>
-<prof>".$profession1."</prof>
-<prof2>".$profession2."</prof2>
-<adr>".$adresse."
+	$pdf->Add_PDF_CVisite("<nom>".stripslashes($prenom)." ".stripslashes($nom)."</nom>
+<prof>".stripslashes($profession1)."</prof>
+<prof2>".stripslashes($profession2)."</prof2>
+<adr>".stripslashes($adresse)."
 ".$codepostal." ".$ville."</adr>",$telephone,$fax,$portable,$mail,$web,$qrcode_web,$coupe_on,$largeur_coupe,$entourage_on,$type_entourage,$img_fond_on,$file_img_fond,$img_fond_transparence,$logo_on,$file_logo);
 	}
 	else
@@ -239,7 +239,7 @@ function definition_des_champs() {
 
 	$f->frm_ObjetChampTexte("VILLE", array( "label" => "Ville",
 	                                         					"attrib" => "R",
-											 "default" => "Ville",
+											 "default" => "METZ Technopole",
 											 "help" => "Saisir la ville")
 											 );
 
@@ -269,7 +269,7 @@ function definition_des_champs() {
 									       "label"  => "Fax",
 									       "width"  => "120px",
 									       "help"   => "Fax",
-									       "default" => "+33 (0)1 02 03 04 05",
+									       "default" => "+33 (0)3 87 54 73 01",
 										   "mask"   => "+## (#)# ## ## ## ##")
 										);
 
@@ -286,7 +286,7 @@ function definition_des_champs() {
 									       "label"  => "Site Web",
 									       "width"  => "275",
 									       "help"   => "Site web ",
-									       "default" => "www.myhome.com")
+									       "default" => "www.lcoms.univ-metz.fr")
 										);
 				
 	$f->frm_OngletNouveau('Génération carte de visite');
